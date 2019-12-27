@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DynamicMemoryAllotment"
+    android:background="#6495ed">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView101"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#b0e0e6"
+        android:text="The mechanism by which memory/cells can be allocated to variables during the run time is called Dynamic Memory Allocation"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="15dp" />
+
+    <TextView
+        android:id="@+id/textView103"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#b0e0e6"
+        android:text="1. malloc - It is used to allocate specified number of bytes (memory blocks).\n\n2. calloc - It is used to allocate specified number of bytes (memory blocks) and initialize all memory with 0.\n\n3. reaclloc - It is used to reallocate the dynamically allocated memory to increase or decrease amount of the memory.\n\n4. free - It is used to release dynamically allocated memory."
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView105"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/textView104"
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:layout_marginTop="20dp"
+        android:background="#b0e0e6"
+        android:text="Following is the syntax for allocating memory dynamically."
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView103"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/textView105"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:background="#b0e0e6"
+        android:text="It involves following four functions:"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView101"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/dma"
+        app:layout_constraintTop_toBottomOf="@+id/textView104"
+        tools:layout_editor_absoluteX="16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

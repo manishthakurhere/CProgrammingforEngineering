@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Unions"
+    android:background="#6495ed">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView78"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="#b0e0e6"
+            android:text="A union is a special data type available in C that allows us to have store different data types in the same memory location. Although a Union may have several members, but only one member can be accessed at once."
+            android:textColor="#000000"
+            android:textSize="22sp"
+            app:layout_constraintTop_toBottomOf="@+id/textView75"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView79"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="#b0e0e6"
+            android:text="Although a Union is similar to a structure in many manners, but what essentially differentiates it is that it is that a union is more efficient in terms of memory management."
+            android:textColor="#000000"
+            android:textSize="22sp"
+            app:layout_constraintTop_toBottomOf="@+id/textView78"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView80"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="#b0e0e6"
+            android:text="Below is an illustration of how a union is declared which is quite similar to the declaration of a structure."
+            android:textColor="#000000"
+            android:textSize="22sp"
+            app:layout_constraintTop_toBottomOf="@+id/textView79"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/union"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView80" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

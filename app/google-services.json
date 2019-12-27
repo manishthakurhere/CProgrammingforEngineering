@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "789287974074",
+    "firebase_url": "https://cprogrammingforengineeri-1b6ce.firebaseio.com",
+    "project_id": "cprogrammingforengineeri-1b6ce",
+    "storage_bucket": "cprogrammingforengineeri-1b6ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789287974074:android:5aa0d72cbaaee351",
+        "android_client_info": {
+          "package_name": "com.wizardapps.cprogrammingforengineering"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789287974074-hgqhb7713hhol9thj3rgf7990if43sku.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wizardapps.cprogrammingforengineering",
+            "certificate_hash": "83533129214f0a4678f5265c7d9a20a73c2d9e4b"
+          }
+        },
+        {
+          "client_id": "789287974074-la5fl45rbcl2damroe6i7h0ukios7rfe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKiD6RaDOPiVzqHm2Iq1IkPBYhq5DSd7U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789287974074-la5fl45rbcl2damroe6i7h0ukios7rfe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

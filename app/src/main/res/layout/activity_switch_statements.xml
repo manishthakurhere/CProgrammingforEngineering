@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SwitchStatements"
+    android:background="#6495ed">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView40"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:layout_marginTop="15dp"
+            android:background="#b0e0e6"
+            android:text="The switch statement allows us to test an expression and depending on its value, execute a statement (or group of statements) amongst several alternatives. It is the most involved statement provided in C language. It uses four keywords, namely, switch, case, default and break. The last two keywords are optional and can be omitted."
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView42"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="276dp"
+            android:background="#b0e0e6"
+            android:text="The general form of this statement is:"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="match_parent"
+            android:layout_height="513dp"
+            android:layout_marginTop="15dp"
+            android:background="#b0e0e6"
+            android:text="
+switch ( expr )\n
+{\n
+    case value1 :\n
+    statement;\n
+    statement;\n
+    ………….\n
+    break;\n
+  case value2:\n
+   statement;\n
+   statement;\n
+  break;\n
+   ………….\n
+ default:\n
+   statement;\n
+   statement;\n
+  break;\n
+}"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/textView42"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:layout_marginTop="17dp"
+            android:background="#b0e0e6"
+            android:text="Following is a flow chart representation of switch:"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/textView41"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/newswi"
+            app:layout_constraintTop_toBottomOf="@+id/textView44"
+            tools:layout_editor_absoluteX="16dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</ScrollView>

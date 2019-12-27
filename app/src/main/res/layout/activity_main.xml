@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#6495ed"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/first_button"
+            android:layout_width="160dp"
+            android:layout_height="195dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="51dp"
+
+            android:layout_marginRight="51dp"
+            android:adjustViewBounds="true"
+
+            android:background="@null"
+            android:clickable="true"
+            android:onClick="clickFirst"
+            android:scaleType="centerInside"
+            android:src="@drawable/first"
+            app:layout_constraintEnd_toStartOf="@+id/second_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageButton
+            android:id="@+id/second_button"
+            android:layout_width="160dp"
+            android:layout_height="195dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+
+            android:layout_marginTop="32dp"
+
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:clickable="true"
+            android:onClick="clickSecond"
+            android:scaleType="centerInside"
+            android:src="@drawable/second"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageButton
+            android:id="@+id/third_button"
+            android:layout_width="160dp"
+            android:layout_height="195dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="18dp"
+
+            android:layout_marginEnd="51dp"
+            android:layout_marginRight="51dp"
+
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:clickable="true"
+            android:onClick="clickThird"
+            android:scaleType="centerInside"
+            android:src="@drawable/third"
+            app:layout_constraintEnd_toStartOf="@+id/fourth_button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/first_button" />
+
+
+        <ImageButton
+            android:id="@+id/fourth_button"
+            android:layout_width="160dp"
+            android:layout_height="195dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+
+            android:layout_marginTop="18dp"
+
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:clickable="true"
+            android:onClick="clickFourth"
+            android:scaleType="centerInside"
+            android:src="@drawable/fourth"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/second_button" />
+
+
+        <ImageButton
+            android:id="@+id/sixth_button"
+            android:layout_width="160dp"
+            android:layout_height="195dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:clickable="true"
+            android:onClick="clickSixth"
+            android:scaleType="centerInside"
+            android:src="@drawable/tips"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/third_button" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

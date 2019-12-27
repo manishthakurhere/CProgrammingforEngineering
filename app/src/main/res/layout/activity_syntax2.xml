@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Syntax"
+    android:background="#6495ed"
+    android:scrollbars="vertical">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#b0e0e6"
+        android:text="Basic Syntax of a C Program includes the following"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+
+        android:id="@+id/basic_syntax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#b0e0e6"
+        android:textColor="#000000"
+        android:text="Tokens in C\n\n
+    Each and every small unit in c program is known as tokens. We can also say that tokens are the basic buildings blocks in C language which are constructed together to write a C program.\n\n Tokens are of 6 types.\n\n
+     1. Keywords\n\n
+     2. Identifiers\n\n
+     3. Constants\n\n
+     4. Strings\n\n
+     5. Special symbols\n\n
+     6. Operators\n\n
+     1. Keywords are pre-defined words in a C compiler.Each keyword is meant to perform a specific function in a C program.Since keywords are referred names for compiler, they can’t be used as variable name. Eg: int,void,long.\n\n
+     2. Identifiers are the name give to each program element in program.Names given to identify Variables, functions and arrays are examples for identifiers.For example int x; here int is the keyword and x is the identifier.\n\n
+     3. Constants are variables whose values can not be modified by the program once they are defined. Constants have a fixed value and they are also known as literals.Keyword const is used before datatype .\n\n
+     4. Strings are array of characters terminated by a nulls character. For example a stringi ‘toy’ has got 4 characters in it ‘t’ , ‘o’ , ‘y’ &amp; the nulls character.\n\n
+     5. Symbols other than the Alphabets and Digits and white-spaces are called Special symbols. Eg: * , &amp; ,^ ,@, etc.\n\n
+     6. An operator is a symbol which operates on a value or a variable. For example: +is an operator to perform addition.C programming has wide range of operators to perform various operations. \n\n\n"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

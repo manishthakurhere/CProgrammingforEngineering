@@ -1,0 +1,24 @@
+package com.wizardapps.cprogrammingforengineering;
+
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class Macros extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_macros2);
+
+        ActionBar actionBar=getSupportActionBar();
+        assert getSupportActionBar() != null;
+        actionBar.setTitle("Macros");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+    }
+    @Override
+    public boolean onSupportNavigateUp(){
+        finish();
+        return true;
+    }
+}

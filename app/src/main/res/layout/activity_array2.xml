@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Array"
+    android:background="#6495ed">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#b0e0e6"
+        android:text="Array is a collection of data of same types stored in sequential memory location. It is a linear data structure, where data is stored linearly one after the other. The elements in an array is accessed using an index. In C, the index of array starts from zero. For example, in an array of n elements, the first element has index zero and the last element has index (n-1). Elements with consecutive index (i.e. i and i+1) are stored in consecutive memory location in the system.\nBelow is an illustration:"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#b0e0e6"
+            android:text="Multi-dimensional array would mean nothing but an array of array(s).\nAn array can be 2-dimensional,3-dimensional etc.."
+            android:textColor="#000000"
+            android:textSize="22sp"
+            app:layout_constraintTop_toBottomOf="@+id/textView67"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView67"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="#b0e0e6"
+            android:text="Arrays can be multi-dimensional as well:"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView19"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView68"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="#b0e0e6"
+            android:text="Arrays are declared with the data type and the name of array along with size, example:\n\nint arr[10]   /*this is an array of integers named 'arr' with size of ten.*/\n double arr[5]   /*this is an array of 'double' data type named 'arr' with size of five. */\n"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            app:layout_constraintTop_toBottomOf="@+id/textView66"
+            tools:layout_editor_absoluteX="33dp" />
+
+
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView65"
+            app:srcCompat="@drawable/array"
+            tools:layout_editor_absoluteX="0dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

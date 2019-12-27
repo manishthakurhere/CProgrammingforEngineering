@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataTypes"
+    android:background="#6495ed"
+    android:scrollbars="vertical">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#b0e0e6"
+        android:text="Following are the user defined data types in C language"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="113dp" />
+
+        <TextView
+            android:id="@+id/data_types"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#b0e0e6"
+
+            android:text="1. Int\n\n2. Float\n\n3. Double\n\n4. Char\n\n1. Int is used to define integer numbers. The size of data type 'int' is 2 bytes, or 16 bits. The minimum value for the signed 'int' data type is -32768.\n         The maximum value for the signed 'int' data type is 32767.\n         We can declare int data type as follows:\n         {\n         Int c;\n         C=5;\n         }\n         \n\n 2. float data type\n         \n         Float is used to define floating point numbers. The size of data type 'float' is 4 bytes or 32 bits. The minimum and maximum value for the 'float' data type is 3.4E-38 to 3.4E+38.\n         We can declare float data type as follows:\n         {\n         float Miles;\n         Miles=5.6;\n         }\n         \n3. double data type\n         \n         Double is used to define BIG floating point numbers. It reserves twice the storage for the number. On PCs this is likely to be 8 bytes. The size of data type double is 4 bytes or 32 bits. The minimum and maximum value for the 'double' data type is 1.7E-308 to 1.7E+308.\n         We can declare double data type as follows:\n         {\n\n         Double a;\n         A=2500;\n         }\n         \n4. char data type\n         \n\n         Char defines characters. The size of data type char is 1 bytes or 8 bits. The minimum and maximum value for the 'char' data type is -128 to 127.\n         We can declare char data type as follows:\n         {\n         char Name\n         Name=’x’\n         }\n\n\n\n\n\n\n"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/textView23"
+            tools:layout_editor_absoluteX="111dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

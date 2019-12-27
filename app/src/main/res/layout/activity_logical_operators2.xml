@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogicalOperators"
+    android:background="#6495ed">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="match_parent"
+        android:layout_height="158dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="15dp"
+
+        android:background="#b0e0e6"
+        android:text="An expression containing logical operator returns either 0 or 1 depending upon whether expression results true or false. Logical operators are commonly used in decision making in C programming."
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/logical_operator"
+        android:layout_width="match_parent"
+        android:layout_height="336dp"
+
+        android:layout_marginTop="15dp"
+        android:background="#b0e0e6"
+        android:text="1. AND(&amp;&amp;) operator:\n     This operator gives the net result of true (i.e 1) if_else both operands are true, otherwise false (i.e 0).\n\n2. OR(||) operator:\n     This operator gives the net result of true (i.e 1) if_else at least one operand is true, otherwise false\n\n3. !(NOT) operator:\n     The ! (not) operator negates the value of the condition. If the condition is false then it becomes true, if_else it is true then it becomes false. Unlike &amp;&amp; (AND) and || (OR) operator, the ! (NOT) operator is unary.\n\n"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29"
+        app:srcCompat="@drawable/lo" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

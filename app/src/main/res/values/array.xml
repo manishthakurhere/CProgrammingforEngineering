@@ -1,0 +1,1702 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sections">
+        <item >Aur Bhai</item>
+        <item >Con Constructive</item>
+        <item >1st Speaker Cross</item>
+        <item >Pro Rebbutal</item>
+        <item >Con Rebuttal</item>
+        <item >2nd Speaker Cross</item>
+        <item >Pro Summary</item>
+        <item >Con Summary</item>
+        <item >Grand Cross</item>
+        <item >Pro Final Focus</item>
+        <item >Con Final Focus</item>
+        <item >1st Speaker Cross</item>
+        <item >Pro Rebbutal</item>
+        <item >Con Rebuttal</item>
+        <item >2nd Speaker Cross</item>
+        <item >Pro Summary</item>
+        <item >Con Summary</item>
+        <item >Grand Cross</item>
+        <item >Pro Final Focus</item>
+        <item >Con Final Focus</item>
+    </string-array>
+
+
+
+    <string-array name="faq_menu">
+        <item >Syntax and Data Types</item>
+        <item >Variables and Storage Classes</item>
+        <item >Operators</item>
+        <item >If Else Statements</item>
+        <item >Loops</item>
+        <item >Arrays</item>
+        <item >Strings</item>
+        <item >Pointers</item>
+        <item >Structures and Unions</item>
+        <item >File Handling</item>
+        <item >Preprocessors</item>
+        <item >Memory Allocation</item>
+        <item >Other FAQs</item>
+    </string-array>
+
+
+    <string-array name="exam_questions">
+        <item >What are keywords?</item>
+        <item>Differentiate between local and global variable.</item>
+        <item>Explain difference between variables and constants.</item>
+        <item>What is the advantage of using a static variable?</item>
+        <item>What Are The Advantages Of Auto Variables?</item>
+        <item>What is meant by formatted input and output?</item>
+        <item>What is the purpose of return statement?</item>
+        <item>How Do You Print An Address?</item>
+        <item> What is preincrement and post increment?</item>
+        <item>What is type casting? Explain it with suitable example. </item>
+        <item>Explain the difference between ‘=’ and ‘==’ operator explain with example?</item>
+        <item>Differentiate between relational and logical operators used in C?</item>
+        <item>What is assembly language?Give examples.</item>
+        <item >What is an Algorithm?</item>
+        <item >What are the advantages of high level languages over machine language?</item>
+        <item>Explain the use of printf and scanf functions.</item>
+        <item >Give any two differences between compilers &amp; interpreters.</item>
+        <item >What is an array? </item>
+        <item >What Is A Function And Built-in Function?</item>
+        <item>What is an argument ?</item>
+        <item>Mention The Characteristics Of Arrays In C?</item>
+        <item>Briefly explain the use of strcmp() function.</item>
+        <item>Explain in brief a function prototype.</item>
+        <item >What does a storage class mean? Mention different storage classes available in C.</item>
+        <item >What is recursion? What are its advantages?</item>
+        <item>What Is A Null Pointer?</item>
+        <item>Write a short note on pointer to pointer.</item>
+        <item >Give differences between call by value and call by reference?</item>
+        <item >Explain the different kinds of loops available in C with examples.</item>
+        <item>Explain the use of break and continue statement in loops with example.</item>
+        <item>What is the difference between while and do while loop?</item>
+        <item >Write a program to find the sum of numbers from 1 to N.</item>
+        <item>Write a program to add two matrices.</item>
+        <item >Demonstrate the usage of a switch statement with an example.</item>
+        <item >Write a program to add two complex numbers using structures.</item>
+        <item>Differentiate between Structures and Unions.</item>
+        <item>Advantages of using Union over Structures.</item>
+        <item>Explain features of preprocessors.</item>
+        <item>Which Is Better To Use A Macro Or A Function?Why?</item>
+        <item>Differentiate between Static Memory Allocation And Dynamic Memory Allocation?</item>
+        <item>What is the Purpose Of Realloc ( )?</item>
+        <item>What is EOF and what value does usually have ?</item>
+        <item>What is a file stream ?</item>
+        <item>Differentiate Between Text And Binary Modes?</item>
+        <item>What is the use of gets and puts?</item>
+        <item>Explain the various modes used in file operation? </item>
+        <item>Write a C program to read name and marks of n number of students from user and store them in a file.</item>
+        <item>Is It Better To Use Malloc () Or Calloc ()?Why?</item>
+        <item>Why can’t we compare structures?</item>
+        <item></item>
+        <item></item>
+
+    </string-array>
+
+    <string-array name="programs_menu">
+        <item >Program to display &quot;Hello World!&quot;</item>
+        <item >Program to print a number (integer) input by user.</item>
+        <item >Program to print a float type number input by user.</item>
+        <item>Program to find average of two given numbers.</item>
+        <item >Program to add two float type numbers.</item>
+        <item >Program to find Quotient and remainder.</item>
+        <item >Program to ASCII value of a character.</item>
+        <item >Program to print values of data types - int,char,float,double.</item>
+        <item >Program to check if a number is greater than hundred.</item>
+        <item >Program to check if a number is odd or even.</item>
+        <item >Program to check if a character is vowel or consonant.</item>
+        <item >Program to find roots of a quadratic equation.</item>
+        <item >Program to check if the year is a leap year.</item>
+        <item >Program to find sum of first ten natural numbers.</item>
+        <item >Program to swap two numbers.</item>
+        <item >Program to reverse a number.</item>
+        <item >Program to find factorial of a number.</item>
+        <item >Program to find LCM of two numbers.</item>
+        <item >Program to find GCD of two numbers.</item>
+        <item>Program to find the number on given position in Fibonacci series.</item>
+        <item >Program to print a string ten times using loop.</item>
+        <item>Program to print all natural numbers between two numbers.</item>
+        <item >Program to find number of digits in a number.</item>
+        <item >Program to check if a given number is palindrome or not.</item>
+        <item>Program to check if a number is prime or composite.</item>
+        <item>Program to print all prime numbers between two given numbers.</item>
+        <item >Program to find power of a number.</item>
+        <item >Program to check if a number is armstrong number.</item>
+        <item >Program to find factors of a number.</item>
+        <item >Program to declare an array and input its entries from user.</item>
+        <item >Program to add all elements of the array.</item>
+        <item >Program to find largest element of the array.</item>
+        <item >Program to find average of all elements of the array.</item>
+        <item >Program to reverse an array.</item>
+        <item >Program to find most occurring element of an array.</item>
+        <item >Program to find number of occurrences of a number in an array.</item>
+        <item>Program to find length of a string.</item>
+        <item>Program to concatenate two strings.</item>
+        <item>Program to Sort four strings in Dictionary Order.</item>
+        <item>Program to find number of times a character appears in a sentence.</item>
+        <item >Program to put sum of elements of two arrays in third array and print it.</item>
+        <item>Program to find number of vowels in a sentence.</item>
+        <item>Program to remove all spaces from a sentence.</item>
+        <item >Program to declare a 2-D array and input entries from the user.</item>
+        <item >Program to add two matrices.</item>
+        <item >Program to multiply two matrices.</item>
+        <item >Program to find transpose of a matrix.</item>
+        <item >Program to input and print array using pointers.</item>
+        <item >Program to swap two numbers using pointers.</item>
+        <item >Program to reverse an array using pointers.</item>
+        <item >Program to add two times using structures.</item>
+        <item >Program to add two distances using structures.</item>
+        <item >Program to add two complex numbers using structures.</item>
+        <item >Program to write a sentence into a file.</item>
+        <item >Program to read a sentence from a file and print it on console.</item>
+        <item >Program to write data into binary file.</item>
+        <item >Program to store information of a book in a structure using dynamic memory allocation.</item>
+
+    </string-array>
+
+    <string-array name="head"> //heading of Programs
+        <item >Program to display &quot;Hello World!&quot;</item>
+        <item >Program to print a number (integer) input by user.</item>
+        <item >Program to print a float type number input by user.</item>
+        <item>Program to find average of two given numbers.</item>
+        <item >Program to add two float type numbers.</item>
+        <item >Program to find Quotient and remainder.</item>
+        <item >Program to ASCII value of a character.</item>
+        <item >Program to print values of data types - int,char,float,double.</item>
+        <item >Program to check if a number is greater than hundred.</item>
+        <item >Program to check if a number is odd or even.</item>
+        <item >Program to check if a character is vowel or consonant.</item>
+        <item >Program to find roots of a quadratic equation.</item>
+        <item >Program to check if the year is a leap year.</item>
+        <item >Program to find sum of first ten natural numbers.</item>
+        <item >Program to swap two numbers.</item>
+        <item >Program to reverse a number.</item>
+        <item >Program to find factorial of a number.</item>
+        <item >Program to find LCM of two numbers.</item>
+        <item >Program to find GCD of two numbers.</item>
+        <item>Program to find the number on given position in Fibonacci series.</item>
+        <item >Program to print a string ten times using loop.</item>
+        <item>Program to print all natural numbers between two numbers.</item>
+        <item >Program to find number of digits in a number.</item>
+        <item >Program to check if a given number is palindrome or not.</item>
+        <item>Program to check if a number is prime or composite.</item>
+        <item>Program to print all prime numbers between two given numbers.</item>
+        <item >Program to find power of a number.</item>
+        <item >Program to check if a number is armstrong number.</item>
+        <item >Program to find factors of a number.</item>
+        <item >Program to declare an array and input its entries from user.</item>
+        <item >Program to add all elements of the array.</item>
+        <item >Program to find largest element of the array.</item>
+        <item >Program to find average of all elements of the array.</item>
+        <item >Program to reverse an array.</item>
+        <item >Program to find most occurring element of an array.</item>
+        <item >Program to find number of occurrences of a number in an array.</item>
+        <item>Program to find length of a string.</item>
+        <item>Program to concatenate two strings.</item>
+        <item>Program to Sort four strings in Dictionary Order.</item>
+        <item>Program to find number of times a character appears in a sentence.</item>
+        <item >Program to put sum of elements of two arrays in third array and print it.</item>
+        <item>Program to find number of vowels in a sentence.</item>
+        <item>Program to remove all spaces from a sentence.</item>
+        <item >Program to declare a 2-D array and input entries from the user.</item>
+        <item >Program to add two matrices.</item>
+        <item >Program to multiply two matrices.</item>
+        <item >Program to find transpose of a matrix.</item>
+        <item >Program to input and print array using pointers.</item>
+        <item >Program to swap two numbers using pointers.</item>
+        <item >Program to reverse an array using pointers.</item>
+        <item >Program to add two times using structures.</item>
+        <item >Program to add two distances using structures.</item>
+        <item >Program to add two complex numbers using structures.</item>
+        <item >Program to write a sentence into a file.</item>
+        <item >Program to read a sentence from a file and print it on console.</item>
+        <item >Program to write data into binary file.</item>
+        <item >Program to store information of a book in a structure using dynamic memory allocation.</item>
+
+    </string-array>
+
+
+
+    <string-array name="naya"> //programs
+        <item >
+        #include &lt;stdio.h&gt;\n
+        int main()\n
+        {\n
+               // printf() displays the string\n\n
+            printf(&quot;\"Hello, World!&quot;\");\n\n
+            return 0;\n
+        }</item>
+        <item >
+        #include &lt;stdio.h&gt;\n
+
+        int main()\n
+        {\n
+         int a;\n
+ \n
+         printf("\"Enter an integer\\n"\");\n
+         scanf("\"%d"\", &amp;a);\n
+ \n
+         printf("\"The integer is %d\\n"\", a);\n
+ \n
+         return 0;\n
+        }</item>
+        <item >
+        #include &lt;stdio.h&gt;\n
+ \n
+        int main()\n
+        {\n
+         int a;\n
+ \n
+        printf("\"Enter an integer\\n"\");\n
+        scanf("\"%d"\", &amp;a);\n
+ \n
+        printf("\"The integer is %d\\n"\", a);\n
+ \n
+        return 0;\n
+        }</item>
+        <item>
+#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+    int num1, num2;\n
+    float avg;\n
+\n
+    printf("\"Enter first number: "\");\n
+    scanf("\"%d"\",&amp;num1);\n
+    printf("\"Enter second number: "\");\n
+    scanf("\"%d"\",&amp;num2);\n
+\n
+    avg= (float)(num1+num2)/2;\n
+\n
+    printf("\"Average of %d and %d is: %f "\",num1,num2,avg);\n
+\n
+    return 0;\n
+}
+        </item>
+        <item >
+#include&lt;stdio.h&gt;\n
+int main()\n
+{\n
+float a,b,c;\n\n
+printf("\"Enter the value of a "\");\n
+scanf("\"%f"\" ,&amp;a);\n\n
+printf("\"Enter the value of b"\");\n
+scanf("\"%f"\" ,&amp;b);\n\n
+c=a+b;\n\n
+printf("\"The sum of two numbers is %f"\",c);\n
+
+}
+        </item>
+        <item >
+#include &lt;stdio.h&gt;\n
+int main()\n
+{\n\n
+	int dividend, divisor, quotient, remainder;\n
+	\n
+	printf("\"Enter dividend: "\");\n
+	scanf("\"%d"\",&amp;dividend);\n
+\n
+	printf("\"Enter divisor: "\");\n
+	scanf("\"%d"\",&amp;divisor);\n
+	\n
+        // To calculate quotient\n
+	quotient= dividend/divisor;\n
+\n
+        // To calculate remainder\n
+	remainder= dividend%divisor;\n
+	\n
+	printf("\"quotient: %d, remainder: %d\n"\",quotient,remainder);\n
+	\n
+	return 0;\n
+}
+        </item>
+        <item >
+#include &lt;stdio.h&gt;\n
+int main(){\n
+    char ch;\n
+    int asciiValue;\n
+ \n
+    printf("\"Enter a character: "\");\n
+    scanf("\"%c"\",&amp;ch);\n
+ \n
+    asciiValue=(int)ch;\n
+ \n
+    printf("\"ASCII value of character: %c is: %d \\n "\",ch,asciiValue);\n\n
+ return 0;\n
+}
+        </item>
+        <item >
+#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+    int integerType=12;\n
+    float floatType=12.32;\n
+    double doubleType=1232.3212;\n
+    char charType=\'c\';\n
+\n
+    printf("\"integer is : %d\\n"\",integerType);\n
+    printf("\"float is : %f\\n"\",floatType);\n
+    printf("\"double is : %lf\\n"\",doubleType);\n
+    printf("\"char is : %c\\n"\",charType);\n\n
+    return 0;\n
+}
+        </item>
+        <item >
+#include&lt;stdio.h&gt;\n
+int main()\n
+{\n
+    int number;\n
+\n
+    printf("\"Enter an integer number:"\");\n
+    scanf("\"%d"\",&amp;number);\n
+\n
+    if(number &lt; 100)\n
+    {\n
+        printf("\"The Number is smaller than 100\\n\\n"\");\n
+    }\n\n
+    else\n
+    {\n
+        printf("\"The Number is greater than 100 :"\");\n
+    }\n\n
+            return 0;\n
+}
+        </item>
+        <item >
+#include&lt;stdio.h&gt;\n
+int main()\n
+{\n
+    int num;\n
+ \n
+    printf("\"Enter an integer : "\");\n
+    scanf("\"%d"\",&amp;num);\n
+ \n
+    /*If number is divisible by 2 then number \n
+    is EVEN ,otherwise number is ODD*/\n
+ \n
+    if(num%2==0)\n
+        printf("\"%d is an EVEN number."\",num);\n
+    else\n
+        printf("\"%d is an ODD number."\",num);\n
+ \n
+    return 0;\n
+}
+        </item>
+        <item >
+#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+  char ch;\n
+            \n
+  printf("\"Enter a character\\n"\");\n
+  scanf("\"%c"\", &amp;ch);\n
+ \n
+  // Checking if character is vowel.\n
+ \n
+  if (ch == \'a\' || ch == \'A\' || ch == \'e\' || ch == \'E\' || ch == \'i\' || ch == \'I\' || ch ==\'o\' || ch==\'O\' || ch == \'u\' || ch == \'U\')\n
+    printf("\"%c is a vowel.\\n"\", ch);\n\n
+  else\n
+    printf("\"%c isn't a vowel.\\n"\", ch);\n
+     \n
+  return 0;\n
+}
+        </item>
+        <item >
+#include&lt;stdio.h&gt;\n
+#include&lt;math.h&gt;   // for sqrt() function\n
+int main()\n
+{\n
+    float a, b, c, determinant, r1, r2, real, imaginary;\n\n
+    printf("\"Enter coefficients a, b and c: \\n"\");\n
+    scanf("\"%f%f%f"\", &amp;a, &amp;b, &amp;c);\n
+            \n
+    determinant == b*b - 4*a*c; \n
+\n
+    if(determinant > 0)\n
+    {\n
+        r1 = (-b + sqrt(determinant))/2*a;\n
+        r2 = (-b - sqrt(determinant))/2*a;\n
+        printf("\"\\n Roots are: %f and %f "\", r1, r2);\n
+    }\n\n
+    else if(determinant == 0)  // if both roots are real, equal\n
+    {\n
+        r1 = r2 = -b/(2*a); \n
+        printf("\"Roots are: %f and %f "\", r1, r2);\n
+    }\n
+\n
+    else\n
+    {\n
+        real = -b/(2*a);\n
+        imaginary = sqrt(-determinant)/(2*a);\n
+        printf("\"Roots are %f + i%f and %f - i%f "\", real, imaginary, real, imaginary);\n
+    }\n\n
+    return 0;\n
+}
+        </item>
+        <item >
+#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+    int y;\n
+    printf("\"Enter year: "\");\n
+    scanf("\"%d"\",&amp;y);\n
+\n
+    if(y % 4 == 0)\n
+    {\n
+    	//Nested if else\n\n
+        if( y % 100 == 0)\n
+        {\n\n
+            if ( y % 400 == 0)\n
+                printf("\"%d is a Leap Year"\", y);\n\n
+            else\n
+                printf("\"%d is not a Leap Year"\", y);\n
+        }\n\n
+        else\n\n
+            printf("\"%d is a Leap Year"\", y );\n
+    }\n\n
+    else\n
+        printf("\"%d is not a Leap Year"\", y);\n
+\n\n
+    return 0;\n
+}
+        </item>
+        <item >
+#include &lt;stdio.h&gt;\n
+void main()\n
+{\n
+    int  j, sum = 0;\n
+\n
+    printf("\"The first 10 natural number is :\\n"\");\n
+ \n
+    for (j = 1; j &lt;= 10; j++)\n
+    {\n
+        sum = sum + j;\n
+        printf("\"%d "\",j);\n
+    }\n
+    printf("\"\\nThe Sum is : %d\\n"\", sum);\n\n
+            return 0;\n
+}
+        </item>
+        <item >
+#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+  int a, b, Temp;\n
+ \n
+  printf("\"Please Enter the value of a and b\\n"\");\n
+  scanf("\"%d %d"\", &amp;a, &amp;b);\n
+ \n
+  printf("\"\n Before Swap: a = %d and b = %d\\n"\", a, b);\n
+ \n
+  Temp = a;\n
+  a    = b;\n
+  b    = Temp;\n
+ \n
+  printf("\"\\nAfter Swapping: a = %d and b = %d\\n"\", a, b);\n
+ \n
+  return 0;\n
+}
+        </item>
+        <item >
+#include&lt;stdio.h&gt;\n
+int main()\n
+{\n
+    int n, reverse = 0;\n
+    printf("\"Enter a number\\n"\");\n
+    scanf("\"%d"\",&amp;n);\n
+\n
+    while (n != 0)\n
+    {\n
+        reverse = reverse * 10;\n
+
+        reverse = reverse + n%10;\n
+
+        n = n/10;\n
+    }\n
+\n
+    printf("\"Reverse is = %d\\n"\", reverse); \n\n
+    return 0;\n
+}
+        </item>
+        <item >
+#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+   int i,fact=1,num;\n
+ \n
+   printf("\"\\nEnter a number : "\");\n
+   scanf("\"%d"\",&amp;num);\n
+ \n
+   if (num&lt;0)\n
+   {\n
+      printf("\"\\nSorry, you entered a negative number!"\");\n
+   } \n
+ \n
+   for(i=1;i&lt;=num;i++)\n
+   {\n
+            fact=fact*i;\n
+   }\n\n
+   printf("\"Factorial is %d\\n"\",fact);\n\n
+   return 0;\n
+}
+        </item>
+        <item >
+#include&lt;stdio.h&gt;\n
+int main()\n
+{\n
+ int a,b,i,max,lcm;\n
+ \n
+  	printf("\"Enter two numbers\\n"\");\n
+ scanf("\"%d%d"\",&amp;a,&amp;b);\n\n
+    if(a>b)\n
+            {max=a;}\n\n
+     else\n
+            {max=b;}\n\n
+
+    for(i=0;i&lt;max;i++)\n
+    {\n
+        if(max%a==0 &amp;&amp; max%b==0)\n
+        {\n
+            lcm=max;\n
+            break;\n
+        }\n
+        max++;\n
+    }\n\n
+
+    printf("\"\n LCM of the two numbers = %d"\",lcm);\n
+            \n
+            return 0;\n
+ }
+        </item>
+        <item >
+#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+    int i, num1, num2, min, hcf=1;\n
+\n
+    printf("\"Enter two numbers : "\");\n
+    scanf("\"%d%d"\", &amp;number1, &amp;number2);\n
+\n
+    // Find minimum between two numbers \n
+    min = (number1&lt;number2) ? number1 : number2;\n
+\n
+    for(i=1; i&lt;=min; i++)\n
+    {\n
+        // If i is factor of both numbers\n
+        if(number1%i==0 &amp;&amp; number2%i==0)\n
+        {\n
+            hcf = i;\n
+        }\n
+    }\n
+\n
+    printf("\" GCD of %d and %d = %d\\n"\", number1, number2, hcf);\n\n
+    return 0;\n
+}
+        </item>
+        <item>
+#include&lt;stdio.h&gt;\n
+int main()\n
+{\n
+   int number,i;\n
+   int first=0, second=1, next;\n
+   \n
+   printf("\"Enter the number of terms :"\");\n
+   scanf("\"%d"\",&amp;number);\n
+   \n
+   for(i=0; i&lt;number ;i++)\n
+   {\n
+		if(i&lt;=1)\n
+		{\n
+			next=i;\n
+		}\n
+		else\n
+		{\n
+	   		next=first+second;\n
+			first=second;\n
+			second=next;\n
+		}\n
+		printf("\"%d\\n"\",next);\n
+   }\n\n
+   return 0;\n
+}
+        </item>
+        <item >
+#include&lt;stdio.h&gt;\n
+int main()\n
+{\n
+	int i,n;\n\n
+            char s[20];\n\n
+	printf("\"enter a word"\");\n
+	scanf("\"%s"\",&amp;s);\n\n
+	for(i=1;i&lt;=10;i++)\n
+{
+		printf("\"String : %s \\n"\",s);\n
+}\n\n
+            return 0;\n
+            }
+        </item>
+        <item>
+#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+        int num,m,n;\n
+        printf ("\"Enter first and second number : "\") ;\n
+
+        scanf ("\"%d %d"\", &amp;m, &amp;n);\n
+\n
+        for (num = m; num &lt;= n; num++)\n
+             {\n
+                printf("\"%d "\", num);\n
+             }\n\n
+            return 0;\n
+}
+        </item>
+        <item >
+#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+  int Number, Reminder, Count=0;\n
+\n
+  printf("\"\\nEnter a number\\n"\");\n
+  scanf("\"%d"\", &amp;Number);\n
+\n
+  while(Number > 0)\n
+  {\n
+     Number = Number / 10;\n
+     Count = Count + 1;  \n
+  }\n
+\n
+  printf("\"\\n Number of Digits  = %d"\", Count);\n\n
+  return 0;\n
+}
+        </item>
+        <item >
+#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+    int n, num, rev = 0;\n
+            \n
+    printf("\"Enter any number to check : "\");\n
+    scanf("\"%d"\", &amp;n);\n
+\n
+    //put value of n into num\n
+    num = n; \n
+\n
+   // keep storing reverse of n in variable rev\n
+    while(n != 0)\n
+    {\n
+        rev = (rev * 10) + (n % 10);\n
+        n  =n/10;\n
+    }\n
+       \n
+    if(rev == num)\n
+    {\n
+        printf("\"%d is palindrome."\", num);\n
+    }\n\n
+    else\n
+    {\n
+        printf("\"%d is not palindrome."\", num);\n
+    }\n
+\n
+    return 0;\n
+}
+        </item>
+        <item>
+#include&lt;stdio.h&gt;\n
+int main()\n
+{\n
+    int i,n,c=0;\n\n
+    printf ("\"Enter a number \\n"\");\n
+    scanf ("\"%d"\",&amp;n);\n\n
+    for (i=1;i&lt;=n;i++)\n
+    {\n
+        if(n%i==0)\n
+        c=c+1;\n
+    }\n\n
+    if (c==2)\n
+    printf ("\"Number is PRIME"\");\n\n
+    else\n
+    printf ("\"Number is COMPOSITE"\");\n\n
+    return 0;\n
+}
+        </item>
+        <item>
+#include &lt;stdio.h&gt;\n
+int main ()\n
+{\n
+   int num1, num2, i, j, flag;\n
+\n
+   printf("\"Enter the two numbers: "\");\n
+   scanf("\"%d %d"\", &amp;num1, &amp;num2);\n
+\n
+   printf("\"Prime numbers between %d and %d are:\\n"\", num1, num2);\n\n
+   for (i = num1 + 1; i &lt; num2; ++i)\n
+   {\n
+      flag = 0; // putting flag as 0\n
+      for (j = 2; j &lt;= i/2; ++j)\n
+      {\n
+         if (i % j == 0)\n
+         {\n
+            flag = 1;\n
+            break;\n
+         }\n
+      }\n\n
+      if (flag == 0) \n
+          printf("\"%d\t"\", i);\n
+   }\n\n
+   return 0;\n
+}
+        </item>
+        <item >
+#include&lt;stdio.h&gt;\n
+int main()\n
+  {\n
+   int base,power,i,result=1;\n
+            \n
+   printf("\"Enter base and power: "\");\n
+   scanf("\"%d %d"\",&amp;base,&amp;power);\n\n
+   for(i=p;i>0;i--)\n
+   {\n
+   result=result*base;\n
+   }\n\n
+   printf("\"base raised to power is: %d"\",result);\n\n
+    return 0;\n
+  }
+        </item>
+        <item >
+#include&lt;stdio.h&gt;\n
+ int main()    \n
+{    \n
+int n,r,sum=0,temp;   \n \n
+printf("\"enter the number :"\");\n
+scanf("\"%d"\",&amp;n);  \n\n
+temp=n;\n\n
+while(n>0)\n
+{    \n
+r=n%10;\n
+sum=sum+(r*r*r); \n
+n=n/10;    \n
+}    \n\n
+if(temp==sum)\n
+printf("\"armstrong  number "\");\n\n
+else    \n
+printf("\"not an armstrong number"\");\n\n
+return 0;  \n
+}
+        </item>
+        <item >
+#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+    int i, num;\n
+            \n
+    printf("\"Enter the number: "\");\n
+    scanf("\"%d"\", &amp;num);\n
+\n
+    printf("\"Factors of %d are: \\n"\", num);\n
+\n
+    for(i=1; i&lt;=num; i++)\n
+    {\n
+
+        if(num % i == 0)\n
+        {\n
+            printf("\"%d  "\",i);\n
+        }\n
+    }\n
+\n
+    return 0;\n
+}
+        </item>
+        <item >
+
+#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+    int arr[SIZE]; // Declaration of array\n
+    int i, n;\n
+\n
+    printf("\"Enter size of array: "\");\n
+    scanf("\"%d"\", &amp;n);\n
+\n
+  // input elements from user\n
+    printf("\"Enter %d elements : "\", n);\n\n
+    for(i=0; i&lt;n; i++)\n
+    {\n
+        scanf("\"%d"\", &amp;arr[i]);\n
+    }\n
+\n
+    //now printing the elements\n
+    printf("\"\\nElements of the array are: "\");\n\n
+    for(i=0; i&lt;n; i++)\n
+    {\n
+        printf("\"%d "\", arr[i]);\n
+    }\n
+\n
+    return 0;\n
+}
+        </item>
+        <item >
+#include&lt;stdio.h&gt;\n
+ int main()\n
+  {\n
+   int arr[20],i,n,sum=0;\n
+  \n
+   printf("\"Enter number of elements: "\");\n
+   scanf("\"%d"\",&amp;n);\n\n
+   printf("\"Enter the elements "\");\n
+   for(i=0;i&lt;n;i++)\n
+   {\n
+   scanf("\"%d"\",&amp;arr[i]);\n
+   }\n\n
+   printf("\"Sum of Elements is: "\");\n
+\n
+   for(i=0;i&lt;n;i++)\n
+   {\n
+    sum=sum+arr[i];\n
+   }\n\n
+  printf("\"%d "\",sum);\n\n
+            return 0;\n
+  }
+        </item>
+        <item >
+#include&lt;stdio.h&gt;\n
+int main()\n
+            {\n
+  int a[50],size,i,largest;\n
+            \n
+  printf("\"\\nEnter the number of elements: "\");\n
+  scanf("\"%d"\",&amp;size);\n\n
+  printf("\"\\nEnter the elements "\");\n
+  for(i=0;i&lt;size;i++)\n
+      scanf("\"%d"\",&amp;a[i]);\n
+  largest=a[0];\n\n
+  for(i=1;i&lt;size;i++)\n
+   {\n
+      if(largest&lt;a[i])\n
+           largest=a[i];\n
+   }\n
+            \n
+  printf("\"\\nLargest element is: %d"\",largest);\n\n
+  return 0;\n
+}
+
+        </item>
+        <item >
+#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+int  a[25], n, i ;\n
+float   avg=0, sum=0;\n\n
+printf("\"Enter the Numbers of elements: "\");\n
+scanf("\"%d "\", &amp;n);\n\n
+printf("\"\\n Enter the elements : "\") ;\n
+for( i=1 ; i&lt;=n ;i++)\n
+{\n
+scanf("\"%d"\", &amp;a[i]);\n
+} \n\n
+for ( i=1; i&lt;=n ;i++)\n
+{\n
+sum = sum + a[i];\n
+avg = sum / n ;\n} \n\n
+printf("\"\\n Average of all elements is : %f "\", avg);\n\n
+return 0;\n
+}
+        </item>
+        <item >
+#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+    int arr[100], n, i, j, temp;\n
+\n
+    printf("\"Enter the number of elements : "\");\n
+    scanf("\"%d"\", &amp;n);\n
+\n
+    for (i=0; i&lt;n; i++)\n
+    {\n
+        printf("\"Enter elements "\");\n
+        scanf("\"%d"\", &amp;arr[i]);\n
+    }\n
+\n
+    for (i=0,j=n-1;i&lt;n/2;i++,j--)\n
+    {\n
+        temp = arr[i];\n
+        arr[i] = arr[j];\n
+        arr[j] = temp;\n
+    }\n
+\n
+    printf("\"Reverse of array\\n"\");\n
+\n
+    for (i = 0; i &lt; n; i++)\n
+    {\n
+        printf("\"%d "\", arr[i]);\n
+    }\n
+\n
+    return 0;\n
+}
+        </item>
+        <item >
+#include&lt;stdio.h&gt;\n
+int maxfrequency(int arr[], int size)\n
+{\n
+    int counter = 0;\n
+    int max = 0;\n
+    int index = 0;\n
+    int i,j;\n
+            \n
+    for(i=0;i&lt;size;i++)\n
+    {\n
+        counter = 0;\n
+        for(j=0;j&lt;size;j++)\n
+        {\n
+            //if repeated check\n
+            if(arr[i] == arr[j])\n
+                counter++;\n
+        }\n
+        \n
+        if(counter > max)\n
+        {\n
+            max = counter;\n
+            index = i;\n
+        }\n
+    }\n
+
+    //return the maximum repeated element\n
+    return arr[index];\n
+}\n
+ \n
+int main()\n
+{\n
+    int arr[] = {2,1,4,6,3,4,8,4};\n
+ \n
+    printf("\"Max frequency is of = %d "\",maxfrequency(arr,8));\n
+ \n
+    return 0;\n
+}
+        </item>
+        <item >
+#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+	int n,i;\n
+	int num,count;\n
+	\n
+	printf("\"Enter total number of elements: "\");\n
+	scanf("%d",&amp;n);\n
+	\n
+     //declaring array of size n\n
+     int arr[n];\n
+            \n
+	//read array elements\n
+	printf("\"Enter array elements:\\n"\");\n
+            \n
+    printf("\"Enter elements "\");\n
+	for(i=0;i&lt;n;i++)\n
+	{\n
+		scanf("\"%d"\",&amp;arr[i]);\n
+	}\n
+	\n
+	printf("\"Enter number to find Occurrence: "\");\n
+	scanf("\"%d"\",&amp;num);\n
+	\n
+	//count frequency of num\n
+	count=0;\n
+	for(i=0;i&lt;n;i++)\n
+	{\n
+		if(arr[i]==num)\n
+			count++;\n
+	}\n\n
+	printf("\"Frequency of %d is: %d\\n"\",num,count);\n\n
+	return 0;\n
+}
+
+
+        </item>
+        <item>
+#include&lt;stdio.h&gt;\n
+int main() \n
+   {\n
+   char str[100];\n
+   int length;\n
+ \n
+   printf("\"\\nEnter the String : "\");\n
+   gets(str);\n
+ \n
+    //initialize length
+   length = 0;  \n
+ \n
+    //count till NULL\n
+   while (str[length] != \'\0\')\n
+      length++;\n
+ \n
+   printf("\"\\nLength of the String is : %d"\", length);\n\n
+   return 0;\n
+}
+        </item>
+        <item>
+#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+    char str1[50], str2[50];\n
+    int i, j;\n
+\n
+    printf("\"Enter first string: "\");\n
+    gets(str1);\n
+    printf("\"Enter second string: "\");\n
+    gets(str2);\n
+\n
+//get length of str1\n
+    i=0;\n
+    while(str1[i] != \'\0\')\n
+    {\n
+        i++;\n
+    }\n
+       \n
+    //now start copying str2 to str1\n
+    j = 0;\n
+    while(str2[j] != \'\0\')\n
+    {\n
+        str1[i] = str2[j];\n
+        i++;\n
+        j++;\n
+    }\n
+      \n
+     //terminate str1 with a NULL\n
+    str1[i] = \'\0\';\n
+\n
+    printf("\"String after concatenation= %s"\", str1);\n
+\n
+    return 0;\n
+}
+        </item>
+        <item>
+include&lt;stdio.h&gt;\n
+#include&lt;string.h&gt;\n
+ \n
+int main()\n
+  {\n
+   char s[4][50], t[20];\n
+   int i, j;\n
+\n
+   printf("\"Enter four strings : \\n"\");\n
+   for (i = 0; i &lt; 4; i++)\n
+      {\n
+            scanf("\"%s"\", s[i]);\n
+            }\n
+ \n
+   for (i = 1; i &lt; 4; i++) {\n
+      for (j = 1; j &lt; 4; j++) {\n
+         if (strcmp(s[j - 1], s[j]) > 0) {\n
+            strcpy(t, s[j - 1]);\n
+            strcpy(s[j - 1], s[j]);\n
+            strcpy(s[j], t);\n
+         }\n
+      }\n
+   }\n
+ \n
+   printf("\"\\nStrings in the order are : "\");\n
+   for (i = 0; i &lt; 4; i++)\n
+            {\n
+      printf("\"\\n%s"\", s[i]);\n
+ }\n
+            \n
+return 0;\n
+}
+        </item>
+        <item>
+#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+    char str[100];\n
+    char c;\n
+    int i=0, count=0;\n
+\n
+    printf("\"Enter the string: "\");\n
+    gets(str);\n
+    printf("\"Enter the character to search: "\");\n
+    c = getchar();\n
+            \n
+    while(str[i] != \'\0\')\n
+    {\n
+      \n
+        if(str[i] == c)\n
+        {\n
+            count++;\n
+        }\n
+\n
+        i++;\n
+    }\n
+\n
+    printf("\"%c occurs %d times"\", c, count);\n
+\n
+    return 0;\n
+}
+        </item>
+        <item >
+#include&lt;stdio.h&gt;\n
+int main() \n
+   {\n
+    int arr1[5],arr2[5],arr3[5];\n
+\n
+    for(int i  = 0 ; i &lt; 5; i++) \n
+     {\n
+      printf("\"enter element for first array"\");\n
+      scanf("\"%d"\", &amp;arr1[i]);\n
+\n
+      printf("\"enter element for second array"\");\n
+      scanf("\"%d"\", &amp;arr2[i]);\n
+            \n
+      // Addition of arrays into third array\n
+      arr3[i] = arr1[i] + arr2[i]; \n
+  }\n
+\n
+  printf("\"\\nNew Array is : "\");\n
+  for(int i  = 0 ; i &lt; 3; i++)\n
+            {\n
+    printf("\"%d\\n"\", arr3[i]);\n
+}\n\n
+            return 0;\n
+            }
+        </item>
+        <item>
+#include&lt;stdio.h&gt;\n
+#include&lt;string.h&gt;\n
+int main()\n
+{\n
+char c[50];\n
+int i,m,count=0;\n
+          \n
+printf("\"enter string\\n"\");\n
+gets(c);\n
+m=strlen(c);\n\n
+for(i=0;i&lt;m;i++)\n
+{\n
+
+if(c[i]==\'a\' || c[i]==\'A\' || c[i]==\'e\' || c[i]==\'E\' || c[i]==\'i\' || c[i]==\'I\' || c[i]==\'o\' || c[i]==\'O\' || c[i]==\'u\' || c[i]==\'U\')\n
+
+{\n
+count++;\n
+}\n
+}\n
+printf("\"Number of vowels in the sentence= %d"\",count);\n\n
+            return 0;\n
+}
+        </item>
+        <item>
+#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+   char old[50], new[50];\n
+   int i = 0, j = 0;\n
+\n
+   printf("\"Enter some text\\n"\");\n
+   gets(old);\n
+\n
+   while (old[i] != \'\0\')\n
+   {\n
+      if (!(old[i] == \' \' &amp;&amp; old[i+1] == \' \'))\n
+      {\n
+        new[j] = old[i];\n
+        j++;\n
+      }\n
+      i++;\n
+   }\n
+\n
+   blank[j] = \'\0\';\n
+            \n
+   printf("\"String without spaces : %s"\", new);\n
+\n
+   return 0;\n
+}
+        </item>
+        <item >
+#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+    int matrix[20][20];\n
+    int i,j,r,c;\n
+     \n
+    printf("\"Enter number of Rows :"\");\n
+    scanf("\"%d"\",&amp;r);\n
+    printf("\"Enter number of Columns :"\");\n
+    scanf("\"%d"\",&amp;c);\n
+ \n
+    printf("\"\\nEnter matrix elements :\\n"\");\n
+    for(i=0;i&lt; r;i++)\n
+    {\n
+        for(j=0;j&lt; c;j++)\n
+        {\n
+            printf("\"Enter element [%d,%d] : "\",i+1,j+1);\n
+            scanf("\"%d"\",&amp;matrix[i][j]);\n
+        }\n
+    }\n
+ \n
+    printf("\"\\nMatrix is :\\n"\");\n
+    for(i=0;i&lt; r;i++)\n
+    {\n
+        for(j=0;j&lt; c;j++)\n
+        {\n
+            printf("\"%d "\",matrix[i][j]);\n
+        }\n
+        printf("\"\\n"\");  //for next line\n
+    }\n\n
+    return 0;   \n
+}
+        </item>
+        <item >
+#include&lt;stdio.h&gt;\n
+int main()\n
+{\n
+	int mat1[3][3], mat2[3][3], i, j, mat3[3][3];\n
+	printf("\"Enter first matrix elements :"\");\n
+	for(i=0; i&lt;3; i++)\n
+	{\n
+		for(j=0; j&lt;3; j++)\n
+		{\n
+			scanf("\"%d"\",&amp;mat1[i][j]);\n
+		}\n
+	}\n
+	printf("\"Enter second matrix elements :"\");\n
+	for(i=0; i&lt;3; i++)\n
+	{\n
+		for(j=0; j&lt;3; j++)\n
+		{\n
+			scanf("\"%d"\",&amp;mat2[i][j]);\n
+		}\n
+	}\n
+	\n
+	for(i=0; i&lt;3; i++)\n
+	{\n
+		for(j=0; j&lt;3; j++)\n
+		{//adding matrices\n
+			mat3[i][j]=mat1[i][j]+mat2[i][j];\n
+		}\n
+	}\n
+	printf("\"The new matrix  :\\n"\");\n
+	for(i=0; i&lt;3; i++)\n
+	{\n
+		for(j=0; j&lt;3; j++)\n
+		{\n
+			printf("\"%d "\",mat3[i][j]);\n
+		}\n
+		printf("\"\\n"\"); // for next line\n
+	}\n
+\n
+            return 0;\n
+}
+        </item>
+        <item >
+#include&lt;stdio.h&gt;\n
+int main()\n
+{\n
+\n
+int x[10][10],y[10][10],z[10][10],i,k,m,a,b,c,d;\n
+\n
+printf("\"\\n Input the order of matrix x:"\");\n
+\n
+scanf("\"%d%d"\",&amp;a,&amp;b);\n
+\n
+printf("\"\\n Input the order of matrix y:"\");\n
+\n
+scanf("\"%d%d"\",&amp;c,&amp;d);\n
+\n
+if(b!=c) //check if multiplication possible\n\n
+
+printf("\"\\n Matrix multiplication impossible\\n"\");\n
+\n
+else\n
+
+{\n
+
+printf("\"\\n Input the elements of matrix x\\n"\");
+\n
+for(i=0;i&lt;a;i++)\n
+
+{\n
+            \n
+for(k=0;k&lt;b;k++)\n
+{\n
+scanf("\"%d"\",&amp;x[i][k]);\n
+}\n
+}\n
+\n
+printf("\"\\n Input the elements of matrix y \\n"\");\n
+\n
+for(i=0;i&lt;c;i++)\n
+{\n
+for(k=0;k&lt;d;k++)\n
+{\n
+scanf("\"%d"\",&amp;y[i][k]);\n
+}\n
+}\n
+\n
+for(i=0;i&lt;a;i++)\n
+{\n
+for(k=0;k&lt;d;k++)\n
+{\n
+for(m=0;m&lt;b;m++)\n
+{\n
+z[i][k]+=(x[i][m]*y[m][k]);\n
+}\n
+}\n
+}\n
+\n
+for(i=0;i&lt;a;i++)\n
+\n
+{\n
+\n
+for(k=0;k&lt;d;k++)\n
+{\n
+printf("\"%d \\t"\",z[i][k]);\n
+}\n
+printf("\"\\n"\");\n
+
+}\n
+
+}\n
+\n
+}
+        </item>
+        <item >
+#include &lt;stdio.h&gt;\n
+int main() \n
+    {\n
+	int m, n, c, d, matrix[10][10], transpose[10][10];\n\n
+ 	printf("\"Enter the number of rows and columns of matrix : "\");\n
+	scanf("\"%d%d"\",&amp;m,&amp;n);\n
+	printf("\"Enter the elements of matrix : \\n"\");\n
+ \n
+	for( c = 0 ; c &lt; m ; c++ )\n
+        {\n
+		for( d = 0 ; d &lt; n ; d++ )\n
+          {\n
+			scanf("\"%d"\",&amp;matrix[c][d]);\n
+		  }\n
+	     }\n\n
+	printf("\"Entered matrix is:\\n"\");\n\n
+	for( c = 0 ; c &lt; m ; c++ ) \n
+            {\n
+		for( d = 0 ; d &lt; n ; d++ )\n
+            {\n
+ 			printf("\"%d\t"\",matrix[c][d]);\n
+		}\n
+		printf("\"\\n"\");\n
+	}\n
+
+ \n
+	for( c = 0 ; c &lt; m ; c++ ) \n
+            {\n
+		for( d = 0 ; d &lt; n ; d++ )\n
+            {\n
+			transpose[d][c] = matrix[c][d];\n
+		}\n
+	}\n
+ \n
+	printf("\"Transpose of matrix :\\n"\");\n
+ \n
+	for( c = 0 ; c &lt; n ; c++ )\n
+            {\n
+		for( d = 0 ; d &lt; m ; d++ ) \n
+            {\n
+			printf("\"%d\\t"\",transpose[c][d]);\n
+		}\n
+		printf("\"\\n"\");\n
+	}\n
+ \n
+	return 0;\n
+}
+        </item>
+        <item >
+#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+   int arr[5], i;\n\n
+   printf("\"Enter elements: "\");\n\n
+   for(i = 0; i &lt; 5; ++i)\n
+    {\n
+            scanf("\"%d"\", arr + i);\n
+            }\n\n
+   printf("\"Array is: \\n"\");\n\n
+   for(i = 0; i &lt; 5; ++i)\n
+      {\n
+            printf("\"%d\\n"\", *(arr + i));\n
+            }\n\n
+   return 0;\n
+}
+        </item>
+        <item >
+#include &lt;stdio.h&gt;\n
+int main()\n
+{\n
+   int x, y, *a, *b, temp;\n
+ \n
+   printf("\"Enter the value of x and y\\n"\");\n
+   scanf("\"%d%d"\", &amp;x, &amp;y);\n
+ \n
+   printf("\"Before Swapping\\nx = %d\\ny = %d\\n"\", x, y);\n
+ \n
+   a = &amp;x;\n
+            b = &amp;y;\n
+
+            temp = *b;\n
+   *b = *a;\n
+   *a = temp;\n
+ \n
+   printf("\"After Swapping \\n x = %d \\n y = %d \\n "\", x, y);\n\n
+
+   return 0;\n
+}
+        </item>
+        <item >
+#include&lt;stdio.h&gt;\n
+int main()\n
+{\n
+            int i;\n
+    int a[5]= {2,9,4,7,5};\n
+    int *p=&amp;a[0];\n
+    \n
+    for(i=0; i&lt;5; i++)\n
+            {\n
+        printf("\"\\nArray[%d] is %d "\",i,*(p+i));\n
+    }\n\n
+            for(i=0; i&lt;5; i++)\n
+       {\n
+        printf("\"\\n %d at %u "\",*(p+i),(p+i));\n
+    }\n\n
+            return 0;\n
+}
+        </item>
+        <item >
+#include&lt;stdio.h&gt;\n
+int main()\n
+ {\n
+ int h,m,s,h1,m1,s1,h2,m2,s2,day;\n\n
+ printf("\"Enter first hours,minutes and seconds\\n"\");\n\n
+ scanf("\"%d%d%d"\",&amp;h1,&amp;m1,&amp;s1); \n\n
+ printf("\"Enter second hours,minutes and seconds\\n"\");\n\n
+ scanf("\"%d%d%d"\",&amp;h2,&amp;m2,&amp;s2);\n\n
+ s=h=m=day=0;\n\n
+ s=s1+s2;\n\n
+ if(s>60)\n
+  {\n
+  m=s/60;\n
+  s=s%60;\n
+  }\n\n
+ m=m+m1+m2;\n\n
+ if(m>60)\n
+  {\n
+  h=m/60;\n
+  m=m%60;\n
+  }\n\n
+ h=h+h1+h2;\n\n
+ if(h>24)\n
+  {\n
+  day=1;\n
+  h=h%24;\n
+  }\n\n
+ printf("\"First time = %d:%d:%d"\",h1,m1,s1);\n
+ printf("\"\\nSecond time = %d:%d:%d"\",h2,m2,s2);\n
+ printf("\"\\nAdded time ="\");\n\n
+ if(day==0)\n
+ printf("\" %d:%d:%d \\n"\",h,m,s);\n\n
+ else\n
+  {\n
+  printf("\"%d day"\",day);\n
+  printf("\"%d:%d:%d\\n"\",h,m,s);\n
+  }\n
+ }\n
+        </item>
+        <item >
+#include &lt;stdio.h&gt;\n
+struct Distance\n
+{\n
+    int feet;\n
+    float inch;\n
+} d1, d2, sumOfDistances;\n\n
+int main()\n
+{\n
+    printf("\"Enter first distance\\n"\");\n\n
+    printf("\"Enter feet: "\");\n
+    scanf("\"%d"\", &amp;d1.feet);\n
+    printf("\"Enter inch: "\");\n
+    scanf("\"%f"\", &amp;d1.inch);\n\n
+    printf("\"\\nEnter second distance\\n"\");\n\n
+    printf("\"Enter feet: "\");\n
+    scanf("\"%d"\", &amp;d2.feet);\n
+    printf("\"Enter inch: "\");\n
+    scanf("\"%f"\", &amp;d2.inch);\n\n
+    sumOfDistances.feet = d1.feet+d2.feet;\n\n
+    sumOfDistances.inch = d1.inch+d2.inch;\n\n
+    // changing inches it to feet\n
+    if (sumOfDistances.inch>12.0)\n
+    {\n
+        sumOfDistances.inch = sumOfDistances.inch-12.0;\n
+        ++sumOfDistances.feet;\n
+    }\n\n
+    printf("\"\\nSum of distances = %d \-%f\"\" ,sumOfDistances.feet, sumOfDistances.inch);\n\n
+    return 0;\n
+}
+        </item>
+        <item >
+#include &lt;stdio.h&gt;\n
+struct complex
+\n
+{\n
+
+     int real, img;\n
+
+};
+\n\n
+
+
+int main()\n
+
+{\n
+
+     struct complex a, b, c;\n
+\n
+
+
+     printf("\"Enter first complex number\\n"\");\n\n
+
+
+     scanf("\"%d"\", &amp;a.real);\n
+
+     scanf("\"%d"\", &amp;a.img);\n\n
+
+     printf("\"Enter second complex number\\n"\");\n\n
+
+     scanf("\"%d"\", &amp;b.real);\n
+
+     scanf("\"%d"\", &amp;b.img);\n\n
+
+     c.real = a.real + b.real;\n
+
+     c.img = a.img + b.img;\n\n
+
+
+
+     if ( c.img >= 0 )\n
+            {\n
+
+          printf("\"The sum of two complex numbers = %d + %di\\n"\",c.real,c.img);\n
+            }\n\n
+
+     else\n
+{\n
+          printf("\"The sum of two complex numbers = %d %di\\n"\",c.real,c.img);\n
+}\n
+\n
+     return 0;\n
+
+}
+        </item>
+        <item >
+#include &lt;stdio.h&gt;\n
+#include &lt;stdlib.h&gt; //to use exit();\n
+int main()\n
+{\n
+   char sentence[100];\n
+   FILE *fptr;\n\n
+            \\open file in write mode
+   fptr = fopen("\"program.txt"\", "\"w"\");
+   if(fptr == NULL)\n
+   {\n
+      printf("\"EXIT!"\");\n
+      exit(1);\n //exits program\n
+   }\n
+   \n
+   printf("\"Enter the sentence:\\n"\");\n
+   gets(sentence);\n\n
+   fprintf(fptr,"\"%s"\", sentence);\n
+   fclose(fptr);\n\n
+   return 0;\n
+}
+        </item>
+        <item >
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt; //to use exit() function\n\n
+int main()\n
+{\n
+    char c[100];\n
+    FILE *fptr;\n
+    if ((fptr = fopen("\"program.txt"\", "\"r"\")) == NULL)\n
+    {\n
+        printf("\"EXIT!"\");\n
+        exit(1);         \n
+    }\n\n
+    // reads text of current line\n\n
+    fscanf(fptr,"\"%[^\\n]"\", c);\n\n
+    printf("\"Data in file:\\n%s"\", c);\n
+    fclose(fptr);\n
+    \n
+    return 0;\n
+}
+        </item>
+        <item >
+#include&lt;stdio.h&gt;\n
+struct address\n
+{\n
+ char name[20];\n
+ char place[20];\n
+ long int pin;\n
+};\n\n
+int main()\n
+{\n
+ FILE *p;\n
+ struct address x;\n
+ int n,i;\n\n
+ p=fopen("\"address"\","\"wb"\");\n\n
+ printf("\"Enter number of records"\");\n
+ scanf("\"%d"\",&amp;n);\n
+ printf("\"Enter %d records:\\n"\",n);\n\n
+ for(i=1;i&lt;=n;i++)\n
+ {\n
+   printf("\"Enter Name:"\");\n
+   scanf("\"%s"\",x.name);\n
+   printf("\"Enter Place:"\");\n
+   scanf("\"%s"\",x.place);\n
+   printf("\"Enter Pin code:"\");\n
+   scanf("\"%ld"\",&amp;x.pin);\n
+   fwrite(&amp;x,sizeof(x),1,p);\n
+ }\n\n
+ fclose(p);\n\n
+ return 0;\n
+}
+        </item>
+        <item >
+#include &lt;stdio.h&gt;\n
+#include&lt;stdlib.h&gt;\n
+struct name {\n
+   int a;\n
+   char c[30];\n
+};\n\n
+int main()\n
+            {\n
+   struct name *ptr;\n
+   int i,n;\n\n
+   printf("\"Enter number of students. : "\");\n
+   scanf("\"%d"\",&amp;n);\n
+\n
+   ptr=(struct name*)malloc(n*sizeof(struct name));\n\n
+   for(i=0;i&lt;n;++i)\n
+            {\n
+       printf("\"Enter name and marks:\\n"\");\n
+       scanf("\"%s%d"\",&amp;(ptr+i)->c, &amp;(ptr+i)->a);\n
+   }\n\n
+   printf("\"Displaying Data:\\n"\");\n\n
+   for(i=0;i&lt;n;++i)\n
+      {\n
+            printf("\"%s %d \\n"\",(ptr+i)->c,(ptr+i)->a);\n
+   }\n\n
+            return 0;\n
+
+}
+        </item>
+
+
+    </string-array>
+
+</resources>

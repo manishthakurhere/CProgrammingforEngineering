@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StorageClass"
+    android:background="#6495ed"
+    android:scrollbars="vertical">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="#b0e0e6"
+        android:text="In C language, each variable has a storage class which decides the following things:"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:id="@+id/storage_class"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="#b0e0e6"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:text="  1. Scope i.e where the value of the variable would be available inside a program.\n\n
+    2. Default initial value i.e if_else we do not explicitly initialize that variable, what will be its default initial value.\n\n
+    3. Lifetime of that variable i.e for how long will that variable exist.\n\n\n
+    Following are the four types:\n\nAUTOMATIC VARIABLES:\n\n
+    The variables which are declared inside a block are known as automatic or local variables; these variables allocates memory automatically upon entry to that block and free the occupied memory upon exit from that block.\n\n
+    1. EXTERNAL OR GLOBAL VARIABLES:\n\n
+    These are the ones that are meant to for whole program . They can be accessed by all the functions in the program.\n\n
+    2. STATIC VARIABLES:\n\n
+    A static variable tells the compiler to persist the variable until the end of program.\n
+    Instead of creating and destroying a variable every time when it comes into and goes out of scope, static is initialized only once and remains into existence till the end of program.\n\n
+    3. REGISTER VARIABLES:\n\n
+    Register variable inform the compiler to store the variable in register instead of memory.\n
+    Register variable has faster access than normal variable.\n
+    Frequently used variables are kept in register.\n\n\n"
+        app:layout_constraintTop_toBottomOf="@+id/textView25"
+        tools:layout_editor_absoluteX="142dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

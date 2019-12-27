@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pointers"
+    android:background="#6495ed">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="#b0e0e6"
+        android:text="A pointer is a variable whose value is the address of another variable, i.e.,
+direct address of the memory location. Like any variable or constant, you must
+declare a pointer before using it to store any variable address."
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView73"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="#b0e0e6"
+            android:text="Below is an illustration where a variable 'q' has a value of '10' assigned to it and is stored in the memory address of '2000'."
+            android:textColor="#000000"
+            android:textSize="22sp"
+            app:layout_constraintTop_toBottomOf="@+id/textView72"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:src="@drawable/poin"
+            app:layout_constraintTop_toBottomOf="@+id/textView73"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/textView74"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:background="#b0e0e6"
+            android:text="Following points are to be kept in mind while using pointers:\n\n1. One cannot assign any value to a pointer directly as it would mean changing the address of the variable.\n2. Once the memory is allocated one should free the memory once it's use is over otherwise it will be a wastage of memory.\n3. Adding one to the address gives the 'address plus the size of type' the array's elements.\n4. In C , we cannot have a pointer of void type.\n5. But we can have array of void pointers and function pointers.\n\n"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView24"
+            tools:layout_editor_absoluteX="0dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

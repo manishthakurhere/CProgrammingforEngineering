@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wizardapps.cprogrammingforengineering">
+
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.wizardapps.cprogrammingforengineering.About_Us" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Other_faq" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Files"/>
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Memory_Allocation_faq" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Preprocessor_faq" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.File_Handeling_faq" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Structures_Unions_faq" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Pointer_faq" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.String_faq" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Arrays_faq" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Loops_faq" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Decision_making_faq" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Operators_faq" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Variables_and_Storage_Classes_faq" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Syntax_and_Data_types_faq" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.ListItemDetail" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.StringClass" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.DynamicMemoryAllotment" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.StaticMemoryAllotment" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Macros" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.BinaryFiles" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.ReadingWritingFiles" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.OpeningClosingFiles" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Unions" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Structures" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Pointers" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Array" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.InfiniteLoop" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.GotoStatement" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.ContinueStatement" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.BreakStatement" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.NestedLoop" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.ForLoop" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.WhileLoop" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.NestedSwitch" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.SwitchStatements" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.NestedIf" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.If" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.BitwiseOperators" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.AssignmentOperators" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.LogicalOperators" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.RelationalOperators" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.ArithmeticOperators" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.StorageClass" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Variables" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.DataTypes" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Syntax" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Tips" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Quiz" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Example" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Advantages" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Applications" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.History" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.skeletal" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Exams" />
+        <activity
+            android:name="com.wizardapps.cprogrammingforengineering.Faqs"
+            android:parentActivityName="com.wizardapps.cprogrammingforengineering.MainActivity" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Programs" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Concepts" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.MainActivity" />
+        <activity android:name="com.wizardapps.cprogrammingforengineering.Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.wizardapps.cprogrammingforengineering.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6692454266263355~7228243477"/>
+    </application>
+</manifest>
